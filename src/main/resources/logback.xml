@@ -1,4 +1,5 @@
 <configuration>
+<!--    <appender name="consoleAppender" class="ch.qos.logback.ext.spring.DelegatingLogbackAppender"/>-->
     <appender name="consoleAppender" class="com.example.demo.DelegateLogAppender"/>
 
     <root level="INFO">
