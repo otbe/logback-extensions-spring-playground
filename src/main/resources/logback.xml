@@ -1,0 +1,7 @@
+<configuration>
+    <appender name="consoleAppender" class="com.example.demo.DelegateLogAppender"/>
+
+    <root level="INFO">
+        <appender-ref ref="consoleAppender"/>
+    </root>
+</configuration>
